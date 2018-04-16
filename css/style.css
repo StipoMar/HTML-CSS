@@ -48,7 +48,13 @@ h1 {
   text-decoration: none;
 }
 
+.btn1 {
+  background-color: #e67e22;
+  border: 1px solid #e67e22;
+}
 
-
+.btn2 {
+  border: 1px solid #e67e22;
+}
 
 
