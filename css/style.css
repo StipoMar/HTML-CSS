@@ -32,6 +32,9 @@ h3 {
   word-spacing: 3px;
 }
 
+h1{
+  color: #ffffff;
+}
 h2 {
   font-size:180%;
   text-align:center;
@@ -204,17 +207,28 @@ header {
 }
 
 .meals-showcase li {
-  width: 25%;
-  display:block;
+  display: block;
   float: left;
+  width: 25%;
+  background-color: #000;
+  overflow: hidden;
 }
 
-.meals-photo {
+.meal-photo {
   width:100%;
- margin: 0;
+  margin: 0;
+  opacity: 0.7;
+ 
 }
 
-.meals-photo img {
-  width: 100%;
+.meal-photo img {
   height: auto;
+  width:100%;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.meal-photo img:hover{
+  transform: scale(1.03);
+  opacity: 1;
 }
