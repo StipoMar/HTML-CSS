@@ -34,9 +34,21 @@ header {
 }
 
 h1 {
-  color: #ffa500;
+  color: #fff;
   font-size: 200%;
   font-weight: 300;
   letter-spacing: 1px;
   word-spacing: 3px;
 }
+
+.btn {
+  display: inline-block;
+  padding: 10px, 30px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+
+
+
+
