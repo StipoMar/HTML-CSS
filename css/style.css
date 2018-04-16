@@ -25,8 +25,7 @@ html {
 
 h1,
 h2,
-h3{
-  color: #fff;
+h3 {
   font-size: 200%;
   font-weight: 300;
   letter-spacing: 1px;
@@ -34,6 +33,7 @@ h3{
 }
 
 h2 {
+  font-size:180%;
   text-align:center;
   margin-bottom:20px;
 }
@@ -49,7 +49,9 @@ h2:after{
   }
 
 h3 {
-  
+  font-size:110%;
+  margin-bottom: 15px;
+  letter-spacing: none;
   
 }
 section {
@@ -69,6 +71,26 @@ section {
   width: 70%;
   margin-left: 15%;
 }
+
+.box {
+  font-size: 85%;
+  line-height:145%;
+}
+/*############################################################
+#     ICONS
+##################################################### */
+
+.big {
+  font-size: 350%;
+  display: block;
+  color: #e67e22;
+  margin-bottom: 15px;
+  padding: 0 60px;
+  
+}
+
+
+
 
 /*############################################################
 #       HEADER
@@ -170,4 +192,29 @@ header {
 .main-nav li a:hover {
   border-bottom: 2px solid #e67e22;
   padding: 10px;
+}
+
+/*############################################
+#        MEALS
+#################################################### */
+
+.meals-showcase {
+  list-style: none;
+  width:100%;
+}
+
+.meals-showcase li {
+  width: 25%;
+  display:block;
+  float: left;
+}
+
+.meals-photo {
+  width:100%;
+ margin: 0;
+}
+
+.meals-photo img {
+  width: 100%;
+  height: auto;
 }
