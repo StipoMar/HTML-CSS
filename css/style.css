@@ -61,3 +61,8 @@ h1 {
 .btn2:visited {
   border: 1px, solid, #e67e22;
 }
+
+.btn:hover,
+.btn:active {
+  background-color: #cf6d17;
+}
