@@ -38,11 +38,16 @@ h2 {
   word-spacing: 3px;
   text-transform: uppercase;
   text-align:center;
+  margin-bottom:20px;
 }
 
 h2:after{
   display:block;
-  
+  height: 2px;
+  background-color: #e67e22;
+  content: " ";
+  width: 450px;
+  margin: 0 auto 20 auto;
   
 }
 section {
