@@ -20,6 +20,7 @@ html {
 
 header {
   background-image: url(img/hero.jpg);
+  background-image: linear-gradient(rgba(23,23,23,0.7), rgba(23,23,23,0.7));
   background-size: cover;
   background-positionL: center;
   height: 100vh;
