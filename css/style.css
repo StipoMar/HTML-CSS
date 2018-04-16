@@ -113,7 +113,7 @@ h1 {
   font-size: 90%;
   text-decoration: none;
   border-bottom: 2px solid transparent;
-  transition: border-bottom 0.3;
+  transition: border-bottom 0.5;
 }
 
 .main-nav li a:active,
