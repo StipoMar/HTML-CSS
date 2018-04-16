@@ -17,6 +17,15 @@ html {
   text-rendering: optimizelegibility;
 }
 
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
 .row {
   max-width: 1140px;
   margin: 0 auto;
@@ -57,8 +66,20 @@ h3 {
   letter-spacing: none;
   
 }
+
+a:link,
+a:active {
+  text-decoration: none;
+  border-bottom: 1px solid #e67e22;
+  padding: 1px:
+}
+a:hover {
+  color: #e67e22;
+  border: 1px solid transparent;
+}
+
 section {
-  padding: 80px 0;
+  padding: 50px 0;
 }
 
 .box {
@@ -90,6 +111,17 @@ section {
   margin-bottom: 15px;
   padding: 0 60px;
   
+}
+
+.small {
+  display: inline-block;
+  width: 30px;
+  color: #e67e22;
+  text-align:left;
+  font-size:175%;
+  line-height:120%; 
+  vertical-align: middle;
+  margin-right:15px;
 }
 
 
@@ -231,4 +263,68 @@ header {
 .meal-photo img:hover{
   transform: scale(1.03);
   opacity: 1;
+}
+
+/*############################################################
+#       HOW IT WORKS
+#####################################################
+*/
+
+.step-box:first-child {
+  text-align: right;
+  padding-right: 3%;
+  margin-top: 40px;
+}
+
+.step-box:last-child{
+  padding-left:4%;
+  margin-top: 70px;
+}
+
+.phone-photo {
+  width: 40%;
+  height: auto;
+}
+.work-steps {
+  margin-bottom: 40px;
+}
+.work-steps div {
+    color: #e67e22;
+    font-size: 150%;
+    height: 54px;
+    width: 54px;
+    border: 2px solid #e67e22;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 25px;
+    float: left;
+    padding: 5px;
+}
+
+.phone-btn:link,
+.phone-btn:visited {
+  border: 0;
+}
+
+.phone-btn img {
+  height: 55px;
+  width:auto;
+  margin-right:15px;
+}
+
+/*############################################################
+#  Cities
+#####################################################
+*/
+
+.our-cities img {
+  width: 100%;
+  height: auto;
+  border: 4px solid #000;
+  margin-bottom: 15px;
+}
+
+.cities  {
+  margin-bottom: 5px;
 }
