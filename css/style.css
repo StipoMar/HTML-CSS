@@ -68,13 +68,17 @@ h3 {
 }
 
 a:link,
-a:active {
+a:visited {
   text-decoration: none;
-  padding: 1px:
+  color: #e67e22;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #e67e22;
+  transition: border-bottom 0.5s, color 0.5s;
 }
 a:hover {
-  color: #e67e22;
-  border: 1px solid transparent;
+  color: #6d7070;
+  border-bottom: 1px solid #6d7070; 
+
 }
 
 section {
@@ -133,7 +137,7 @@ section {
 header {
   background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/hero.jpg);
   background-size: cover;
-  background-positionL: center;
+  background-position: center;
   height: 100vh;
 }
 
@@ -326,4 +330,13 @@ header {
 
 .cities  {
   margin-bottom: 5px;
+}
+
+/*############################################################
+#  Testimonials
+#####################################################
+*/
+
+.testimonials {
+  background-image: url(css/back-customers.jpg)
 }
