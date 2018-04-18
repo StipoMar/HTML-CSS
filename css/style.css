@@ -139,6 +139,7 @@ header {
   background-size: cover;
   background-position: center;
   height: 100vh;
+  background-attachment: fixed;
 }
 
 .hero-text-box {
@@ -338,5 +339,100 @@ header {
 */
 
 .testimonials {
-  background-image: url(css/back-customers.jpg)
+  background-image: linear-gradient(rgba(23,23,23,0.7), rgba(23,23,23,0.7)), url(img/back-customers.jpg);
+  color: #fff;
+  background-attachment: fixed;
+  background-size: cover;
+  
 }
+
+blockquote {
+  margin-top: 40px;
+  margin-left: 5px;
+  font size: 90%;
+  font-weight:100;
+  font-style: italic;
+  margin-bottom: 35px;
+  position: relative;
+  border-left: 4px solid #147b0d;
+  padding-left: 8px;
+}
+
+cite img{
+  border-radius: 50%;
+  height:45px;
+  width: 45px; 
+  margin-left: 13px;
+  vertical-align: middle;
+}
+
+cite {
+  display:block;
+  
+}
+
+/*############################################################
+#  SIGN UP
+#####################################################
+*/
+
+.plans {
+  background-color: #f4f4f4;
+}
+
+.plan-box {
+  border: 1px solid #e67e22;
+  border-radius: 5%;
+  background-color: #fff;
+  padding-left: 10px;
+  width: 90%;
+}
+
+
+.plan-box h3 {
+  padding-top:5px;
+  font-style: bold;
+  font-size:175%;
+  text-align: center;
+}
+
+.price-month {
+  font-weight: 100;
+  font-size: 300%;
+  margin-bottom: 10px;
+}
+
+.price-month span {
+  font-size: 30%;
+  font-weight:300;
+
+}
+
+.price-meal {
+  font-size: 90%;
+}
+
+.plan-box div{
+  border-bottom: 2px solid #f4f4f4;
+  padding-bottom: 10px;
+}
+
+.plan-box div:last-child {
+  border:none;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.plan-box ul li {
+  list-style: none;
+}
+
+/* ----------------------------------------------- */
+/* FORM */
+/* ----------------------------------------------- */
+
+.contact-form {
+  width: 60%;
+  margin-left: 20%;
+}
+
